@@ -1,19 +1,15 @@
 <!DOCTYPE html>
-<!-- Designate language characters as english -->
 <html lang="en">
   <head>
-    <!-- Designates range of characters to interpret -->
     <meta charset="UTF-8" />
-    <!-- Website title at tab -->
     <title>Run Buddy</title>
-
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <!-- navigation -->
-    <header id="home">
+    <header>
       <h1>
-        <a href="#home">RUN BUDDY</a>
+        <a href="/">RUN BUDDY</a>
       </h1>
       <nav>
         <!-- Unordered list elements -->
@@ -41,7 +37,6 @@
         <p>
           Fill out this form and one of our trainers will schedule a consult
         </p>
-        <!-- Add form element -->
         <form>
           <label for="name">Enter full name:</label>
           <input
@@ -67,7 +62,6 @@
             id="phone"
             class="form-input"
           />
-          <!--  radio button input to form-->
           <p>
             Have you worked out with a trainer before?
             <input type="radio" name="trainer-confirm" id="trainer-yes" />
@@ -75,14 +69,12 @@
             <input type="radio" name="trainer-confirm" id="trainer-no" />
             <label for="trainer-no">No</label>
           </p>
-          <!--  checkbox input to form -->
           <p>
             <input type="checkbox" name="age-confirm" id="checkbox" />
             <label for="checkbox"
               >I acknowledge that I am at least 18 years of age
             </label>
           </p>
-          <!--  submit button to form -->
           <button type="submit">Get Running!</button>
         </form>
       </div>
@@ -119,11 +111,13 @@
     <!-- "what you do section" -->
     <section id="what-you-do" class="steps">
       <h2 class="section-title secondary-border">What You Do</h2>
+
       <div>
         <img src="./assets/images/step-1.svg" alt="" />
         <h3>Step 1:<span>Fill Out the Form Above.</span></h3>
         <p>Youre already here, so why not?</p>
       </div>
+
       <div>
         <img src="./assets/images/step-2.svg" alt="" />
         <h3>Step 2:<span>Consult with One of Our Trainers</span></h3>
@@ -138,6 +132,7 @@
           plan
         </p>
       </div>
+
       <div>
         <img src="./assets/images/step-4.svg" alt="" />
         <h3>Step 4: <span>See Results.</span></h3>
@@ -145,7 +140,7 @@
       </div>
     </section>
 
-    <!-- "your trainers section" -->
+    <!-- "meet the trainers section" -->
     <section id="your-trainers" class="trainers">
       <h2 class="section-title primary-border">Meet The Trainers</h2>
       <!-- first trainer bio -->
@@ -165,6 +160,7 @@
           </p>
         </div>
       </article>
+
       <!-- second trainer bio -->
       <article class="trainer">
         <div class="trainer-bio text-right">
@@ -182,10 +178,12 @@
           alt="Joanna Gill post workout"
         />
       </article>
+
+      <!-- third trainer bio -->
       <article class="trainer">
         <img
           src="./assets/images/trainer-3.jpg"
-          alt="Harry Smith ready to rock with the smallest possible weights"
+          alt="Harry Smith wearing a headband and lifting comically small pink weights"
         />
         <div class="trainer-bio text-left">
           <h3>Harry "The Headband" Smith</h3>
@@ -205,32 +203,33 @@
       <h2 class="section-title secondary-border">Reach Out</h2>
       <div class="contact-info">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13020.93123197182!2d-82.47772621415785!3d35.32503989308031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8859c20410f43e77%3A0xc9465f1fc1ac755e!2s1110%20Sylvan%20Blvd%2C%20Hendersonville%2C%20NC%2028791!5e0!3m2!1sen!2sus!4v1640279553539!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.1079747227936!2d-120.42364418397035!3d37.92790791110593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8090c49129b6ac57%3A0xb56c7eb95a2cd8bd!2sMain%20St%2C%20California%2095327!5e0!3m2!1sen!2sus!4v1616426329495!5m2!1sen!2sus"
           style="border: 0"
           allowfullscreen=""
           loading="lazy"
         ></iframe>
-      </div>
-      <div class="contact-info">
-        <h3>Run Buddy</h3>
-        <p>
-          Any questions or concerns before signing up?
-          <br />info@runbuddy.io Let us know and we'll be happy to talk to you!
-        </p>
-        <address>
-          55 Main Street <br />
-          Some Town, Ca <br />
-          12345 <br />
-          P: 555.Run.Budz (555.786.2839) <br />
-          E:
-          <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
-        </address>
+        <div>
+          <h3>Run Buddy</h3>
+          <p>
+            Any questions or concerns before signing up?
+            <br />
+            Let us know and we'll be happy to talk to you!
+          </p>
+          <address>
+            55 Main Street <br />
+            Some Town, Ca <br />
+            12345 <br />
+            P: 555.Run.Budz (555.786.2839) <br />
+            E:
+            <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
+          </address>
+        </div>
       </div>
     </section>
 
     <!-- footer -->
     <footer>
-      <h2>Made with love ❤️ by Run Buddy</h2>
+      <h2>❤️ Made with love by Run Buddy</h2>
       <div>
         <a href="./privacy-policy.html">Read Our Privacy Policy</a><br />
         &copy; 2019 Run Buddy, Inc.
