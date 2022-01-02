@@ -96,13 +96,13 @@ section {
   margin: 5px 0 15px 0;
 }
 
-form-input {
+.form-input {
   border: 1px solid #024e76;
   display: block;
   padding: 7px 15px;
-  font-size: 16px;
+  font-size: 14px;
   color: #024e76;
-  width: 50%;
+  width: 100%;
   margin-bottom: 15px;
 }
 
